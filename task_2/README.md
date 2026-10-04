@@ -23,8 +23,18 @@
 
 1. Перейдіть у папку завдання:
    cd task_2
+   
+2. Створіть та активуйте віртуальне середовище (рекомендовано):
 
-2. Встановіть необхідні залежності:
+Linux / macOS:
+python3 -m venv venv
+source venv/bin/activate
+
+Windows:
+python -m venv venv
+venv\Scripts\activate
+
+3. Встановіть необхідні залежності:
    pip install -r requirements.txt
 
 (Вміст файла requirements.txt: requests, matplotlib)

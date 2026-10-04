@@ -16,18 +16,12 @@
 
 ---
 
-## Вимоги
+## Вимоги та встановлення
 
-- Python: версії 3.10 або вище
-- Додаткові бібліотеки: aiopath, aiofiles
+Для роботи скрипта потрібен Python 3.9+ та додаткові бібліотеки.
 
----
-
-## Встановлення
-
-1. Клонуйте репозиторій або завантажте вихідний код:
-git clone https://github.com/your-username/async-file-sorter.git
-cd async-file-sorter
+1. Перейдіть у папку завдання:
+   cd task_1
 
 2. Створіть та активуйте віртуальне середовище (рекомендовано):
 
@@ -40,9 +34,9 @@ python -m venv venv
 venv\Scripts\activate
 
 3. Встановіть необхідні залежності:
-pip install aiopath aiofiles
-aбо
-pip install -r requirements.txt
+   pip install -r requirements.txt
+
+(Вміст файла requirements.txt: aiopath, aiofiles)
 
 ---
 
