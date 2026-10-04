@@ -44,7 +44,6 @@ pip install aiopath aiofiles
 aбо
 pip install -r requirements.txt
 
-(Вміст файла requirements.txt: aiopath, aiofiles)
 ---
 
 ## Використання
