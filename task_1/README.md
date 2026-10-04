@@ -41,7 +41,10 @@ venv\Scripts\activate
 
 3. Встановіть необхідні залежності:
 pip install aiopath aiofiles
+aбо
+pip install -r requirements.txt
 
+(Вміст файла requirements.txt: aiopath, aiofiles)
 ---
 
 ## Використання
